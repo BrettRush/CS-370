@@ -1,5 +1,7 @@
 # CS-370
 Module 8
+
+
 In this project, I developed a Pirate Intelligent Agent using deep Q-learning to solve a pathfinding problem in an 8x8 maze environment. The goal of the agent was to navigate from any valid starting position to the treasure while maximizing cumulative reward.
 
 The starter code provided the maze environment, the experience replay class, the neural network architecture, and supporting methods such as reset, observe, act, and completion checks. My responsibility was to implement the deep Q-learning training algorithm. This included designing the training loop, handling exploration vs. exploitation using an epsilon-greedy strategy, storing and sampling experiences, training the neural network with batch updates, updating the target network, and determining the optimal number of epochs required to achieve a consistent 100% win rate.
